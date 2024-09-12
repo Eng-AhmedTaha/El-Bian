@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Almarai', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -17,7 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 200px ;
+    padding: 20px 200px ;
 }
 
 .logo{
@@ -239,18 +238,20 @@ section {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
-.main pre {
+.main p {
     font-size: 25px; /* تغيير حجم الخط هنا حسب رغبتك */
     line-height: 1.6; /* تحسين المسافات بين الأسطر */
     font-family: 'Cairo', sans-serif; /* اختيار خط مريح للعين */
     color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-.main pre b {
+.main p b {
     font-weight: bold; /* الحفاظ على النص بخط عريض */
 }
 
-.main pre mark {
+.main p mark {
     background-color: #ffeb3b; /* اختيار لون التمييز */
     font-weight: bold; /* جعل النص المميز بخط عريض */
 }
@@ -303,6 +304,19 @@ section {
 
     .main-content h3{
         font-size: 1.4em;
+    }
+
+    .main p{
+        font-size: 18px;
+    }
+    .main h2 span{
+        font-size: 30px;
+    }
+    header{
+        flex-direction: column;    
+    }
+    .menu-toggle{
+        margin-top: 20px;
     }
 }
 
